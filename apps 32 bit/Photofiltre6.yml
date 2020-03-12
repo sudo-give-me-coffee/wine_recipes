@@ -12,7 +12,7 @@ ingredients:
     
 preparation:
   install:
-    - pf-setup-en-652.exe
+    - pf-setup-en-652.exe /S
 
 unused_files:
   - /win32-appimage/resources/MSStyle/kupofl.msstyles
