@@ -1,4 +1,4 @@
-app: Photofiltre 6
+app: PhotoFiltre 6
 executable: "C:/Program Files/PhotoFiltre/PhotoFiltre.exe"
 category: Graphics
 keep_registry: true
