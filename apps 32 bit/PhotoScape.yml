@@ -1,11 +1,13 @@
 app: PhotoScape 3
 executable: "C:/Program Files/PhotoScape/PhotoScape.exe"
 category: Graphics
+icon: photoscape.png
 keep_registry: true
 
 ingredients: 
   download:
     - https://web.archive.org/web/20200312152748/https://files.downloadnow.com/s/software/14/47/32/91/PhotoScapeSetup_V3.7.exe?token=1584062487_d3ad6d6a02bb49d2ea9059f3c67defa5&fileName=PhotoScapeSetup_V3.7.exe PhotoScapeSetup_V3.7.exe
+    - https://raw.githubusercontent.com/sudo-give-me-coffee/wine_recipes/master/icons/photoscape.png
     
 preparation:
   install:
