@@ -2,6 +2,7 @@ app: PhotoFiltre 6
 executable: "C:/Program Files/PhotoFiltre/PhotoFiltre.exe"
 category: Graphics
 keep_registry: true
+icon: Photofiltre6.png
 
 flags:
   - copy-app-files
@@ -9,32 +10,13 @@ flags:
 ingredients: 
   download:
     - http://photofiltre.free.fr/utils/pf-setup-en-652.exe
+    - https://raw.githubusercontent.com/sudo-give-me-coffee/wine_recipes/master/icons/Photofiltre6.png
     
 preparation:
   install:
     - pf-setup-en-652.exe /S
 
 unused_files:
-  - /win32-appimage/resources/MSStyle/kupofl.msstyles
-  - /win32-appimage/resources/Fonts/LiberationSerif.tar.gz
-  - /win32-appimage/resources/Fonts/LiberationSans.tar.gz
-  - /win32-appimage/resources/Fonts/LiberationMono.tar.gz
-  - /win32-appimage/resources/Fonts/DejaVuSansMono.tar.gz
-  - /win32-appimage/flags/copy-app-files.flag
-  - /win32-appimage/flags/change-directory.flag
-  - /win32-appimage/data/wineserver
-  - /win32-appimage/data/wine.desktop
-  - /win32-appimage/data/wine
-  - /win32-appimage/data/default.reg
-  - /win32-appimage/data/WineAppRun.sh
-  - /win32-appimage/data/Wine.png
-  - /win32-appimage/data/Win32-AppImage.sh
-  - /win32-appimage/data/Recipe.sh
-  - /win32-appimage/data/Help.sh
-  - /win32-appimage/data/FlagsTool.sh
-  - /win32-appimage/data/BottleTool.sh
-  - /win32-appimage/data/AppRun
-  - /win32-appimage/data/AppDirTool.sh
   - /usr/sbin/uuidd
   - /usr/share/xml/fontconfig/fonts.dtd
   - /usr/share/wine/fonts/wingding.ttf
